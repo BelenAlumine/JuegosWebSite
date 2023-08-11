@@ -1,19 +1,27 @@
 .navbarClass {
-    background-color: violet;
+    background-color: transparent;
     height: 30%;
 }
 
 .navbar {
     background-color: transparent !important;
+    margin-left: 3%;
 }
 
-header {
-    background-color: violet;
+.card, .card-nav {
+    display: grid;
+    
+    margin:auto;
 }
 
-.d-block {
-    height: 10%;
-    width: 100%;
+.titulo {
+    margin-left: 3%;
+    background-color: transparent;
+}
+
+.img-title {
+    height: 30px;
+    background-color: transparent;
 }
 
 .img-carousel {
