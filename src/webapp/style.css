@@ -1,3 +1,65 @@
+.navbarClass {
+    background-color: violet;
+    height: 30%;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
 header {
+    background-color: violet;
+}
+
+.d-block {
+    height: 10%;
+    width: 100%;
+}
+
+.img-carousel {
+    height: 30%;
+}
+
+.carousel {
+    height: 30%;
+}
+
+.carousel-item {
+    height: 30%;
+}
+
+.carousel-inner {
+    height: 30%;
+}
+
+.container-carousel {
+    height: 30%;
+}
+
+.container-lateral {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: end;
     background-color: blueviolet;
+}
+
+.iniciar-sesion {
+    margin: 3%;
+}
+
+.recomendados {
+    margin: 1%;
+    border: 1px black;
+}
+
+.card {
+    margin: 1%;
+    align-items: center;
+}
+
+footer, .container-pages {
+    display: grid;
+    place-items: center;
+    margin: auto;
 }
