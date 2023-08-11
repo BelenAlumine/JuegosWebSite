@@ -65,6 +65,8 @@
 .recomendados {
     margin: 1%;
     border: 1px black;
+    width: 70%;
+    left: 0;
 }
 
 .card {
