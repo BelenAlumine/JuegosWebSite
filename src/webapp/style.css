@@ -6,12 +6,18 @@
 .navbar {
     background-color: transparent !important;
     margin-left: 3%;
+    
 }
 
 .card, .card-nav {
     display: grid;
-    
     margin:auto;
+    
+}
+
+.card-nav {
+    /*position: absolute;    */
+    top: 63%;
 }
 
 .titulo {
