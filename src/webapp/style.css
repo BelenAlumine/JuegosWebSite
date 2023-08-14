@@ -20,6 +20,17 @@
     top: 63%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    background-image: url('Repositorios\GamesWebPage\img\fondo4.jpg');
+    /*background-color: transparent;*/
+}
+
 .titulo {
     margin-left: 3%;
     background-color: transparent;
@@ -50,32 +61,60 @@
     height: 30%;
 }
 
+main {
+    background-image: url('img\fondo4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+
 .container-lateral {
-    width: 30%;
-    position: absolute;
+    margin: 5%;
+    width: 20%;
+    float: right;
     right: 0;
-    bottom: end;
-    background-color: blueviolet;
+    background-color: white;
+    border-radius: 2%;
+    border-color: purple;
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+    padding: 1%;
 }
 
 .iniciar-sesion {
     margin: 3%;
 }
 
-.recomendados {
+.recomendados, .recientes {
     margin: 1%;
-    border: 1px black;
-    width: 70%;
+    margin-left: 3%;
+    width: 65%;
+    float: left;
     left: 0;
+    padding: 3%;
+    background-color: white;
+    border-radius: 1%;
+    border-color: purple;
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+    padding: 1%;
+    
 }
 
 .card {
-    margin: 1%;
+    margin: 2%;
     align-items: center;
+    width: 20%;
 }
+
 
 footer, .container-pages {
     display: grid;
     place-items: center;
     margin: auto;
+    width: 100%;
 }
