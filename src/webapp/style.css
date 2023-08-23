@@ -96,6 +96,24 @@ main {
     width: 20%;
 }
 
+/*CONTACTO*/
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
+.correcto {
+    background-color: green;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
+
 footer, .container-pages {
     display: grid;
     place-items: center;
